@@ -29,11 +29,12 @@ h1 {
     margin: 20px 10px;
 }
 .article p {
-    padding: 15px;
+    padding: 30px;
 }
 p {
     font-weight: bold;
 }
+
 
     /* Large devices */
 @media (min-width: 993px) {
