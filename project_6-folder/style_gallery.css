@@ -13,7 +13,7 @@ img{
     }
 }
 /* Medium devices */
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .col-md-6{
         flex-basis: 50%;
     }
@@ -22,7 +22,7 @@ img{
     }
 }
 /* Small devices */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .col-sm-12{
         flex-basis: 100%;
     }
