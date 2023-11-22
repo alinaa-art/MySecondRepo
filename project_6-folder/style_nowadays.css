@@ -1,3 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/* Large devices*/
+@media (min-width: 992px) {
+    .col-lg-6{
+        flex-basis: 50%;
+    }
+}
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-12{
+        flex-basis: 100%;
+    }
+}
+/* Small devices */
+@media (max-width: 767px) {
+    .col-sm-12{
+        flex-basis: 100%;
+    }
+}
+
+
+
+    /*LIST STYLE*/
 h1 {
     text-align: center;
     font-size: 22px;

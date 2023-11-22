@@ -1,3 +1,31 @@
+/* Large devices*/
+@media (min-width: 992px) {
+    .big-top th{
+        font-size: 1.3em;
+    }
+    .big-nottop td{
+        font-size: 1.2em;
+    }
+}
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991px) {
+    .mdm-top th{
+        font-size: 1.2em;
+    }
+    .mdm-nottop td{
+        font-size: 1.1em;
+    }
+}
+/* Small devices */
+@media (max-width: 767px) {
+    .sml-top th{
+        font-size: 1.1em;
+    }
+}
+
+
+
+    /* TABLE STYLE */
 h1 {
     text-align: center;
     font-size: 22px;
