@@ -1,0 +1,61 @@
+h1 {
+    text-align: center;
+    font-size: 22px;
+}
+a.BackToMain {
+    font-style: italic;
+}
+h3 {
+    text-align: center;
+}
+article {
+    font-size: 120%;
+}
+h2 {
+    font-size: 120%;
+}
+a.cont {
+    font-weight: bold;
+}
+a.up {
+    text-transform: uppercase;
+}
+a.abc:link {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    display:inline-block;
+    text-decoration: none;
+    border: 2px solid black;
+    margin: 10px;
+    width: 100px;
+}
+a.abc:hover {
+    background-color: magenta;
+    color: blue;
+}
+a.abc:active {
+    background-color: yellow;
+    color:black;
+}
+p.base-inf {
+    background-color: rgb(227, 155, 227);
+    color:purple;
+}
+p.child {
+    background-color: rgb(142, 198, 239);
+    color:rgb(23, 17, 152);
+}
+p.school {
+    background-color: rgb(140, 220, 160);
+    color:rgb(10, 95, 10);
+}
+p.out-of-school {
+    background-color: rgb(220, 140, 140);
+    color:rgb(52, 2, 2);
+}
+p.uni {
+    background-color: rgb(210, 176, 124);
+    color:rgb(67, 34, 3);
+}

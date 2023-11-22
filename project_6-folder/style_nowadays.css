@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    font-size: 22px;
+}
+a.BackToMain {
+    font-style: italic;
+}
+h2 {
+    text-align: center;
+}
+ul.odd-rows li:nth-child(odd) {
+    background-color: rgb(159, 159, 159);
+}
+ul.odd-rows li:nth-child(even) {
+    background-color: white;
+}
+li.point {
+    cursor: pointer;
+}
+li.color {
+    background-color:rgb(227, 159, 159);
+}
